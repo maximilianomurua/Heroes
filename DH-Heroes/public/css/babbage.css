@@ -1,0 +1,53 @@
+.contenedor{
+    background-image: url('/recursos/img/babbage-computer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}.contenedor:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+}
+
+.img-heroe{
+    width: 300px;
+}
+
+.titulo{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.parrafo{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    text-shadow: 1px 1px 2px black;
+}
