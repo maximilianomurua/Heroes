@@ -15,3 +15,7 @@ app.get("/", (req, res) => {
 app.get("/babbage", (req, res) => {
   res.sendFile(path.join(__dirname, "./DH-Heroes/views/babbage.html"));
 });
+
+app.get("/berners-lee", (req, res) => {
+  res.sendFile(path.join(__dirname, "./DH-Heroes/views/berners-lee.html"));
+});
