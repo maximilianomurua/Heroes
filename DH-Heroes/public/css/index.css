@@ -1,0 +1,56 @@
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/recursos/img/universo.jpg");
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.contenedor-principal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caja {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 97vh;
+}
+
+.img-heroe {
+  width: 300px;
+  z-index: 1;
+}
+
+.titulo {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0px 0px 0px;
+  text-shadow: 1px 1px 2px black;
+  z-index: 1;
+}
+
+.parrafo {
+  margin-top: 5px;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px black;
+  z-index: 1;
+}

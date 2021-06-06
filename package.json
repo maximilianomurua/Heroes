@@ -1,0 +1,22 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "practica integradora",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilianomurua/Heroes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilianomurua/Heroes/issues"
+  },
+  "homepage": "https://github.com/maximilianomurua/Heroes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
