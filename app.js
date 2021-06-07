@@ -31,7 +31,7 @@ app.get("/hopper", (req, res) => {
   res.sendFile(path.join(__dirname, "./DH-Heroes/views/hopper.html"));
 });
 
-app.get("/lovelace ", (req, res) => {
+app.get("/lovelace", (req, res) => {
   res.sendFile(path.join(__dirname, "./DH-Heroes/views/lovelace.html"));
 });
 
